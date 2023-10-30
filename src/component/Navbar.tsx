@@ -83,7 +83,7 @@ const Navbar = () => {
               : 'fixed top-0 left-[-100%] ease-in duration-500'
           }>
           <div className="w-full flex items-center justify-between">
-            <Image src="/../public/assets/logo.png" alt="Logo" width="80" height="0" />
+            <Image src={Logo} alt="Logo" width={80} height={0} />
             <div
               onClick={handleNav}
               className="rounded-full shadow-lg shadow-gray-400/60 p-2 group cursor-pointer">
