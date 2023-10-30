@@ -46,7 +46,9 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full h-20 fixed z-[99999] lg:text-xl ${shadow ? `shadow-none backdrop-filter backdrop-blur-md` : 'shadow-none bg-transparent'}`}>
+      className={`w-full h-20 fixed z-[99999] lg:text-xl ${
+        shadow ? `shadow-none backdrop-filter backdrop-blur-md` : 'shadow-none bg-transparent'
+      }`}>
       <div className="w-full h-full flex justify-between items-center px-4 md:px-16">
         <Image src={Logo} alt="Logo" width={100} height={50} />
         <div>
@@ -149,7 +151,9 @@ const Navbar = () => {
                     <FaInstagram />
                   </div>
                 </Link>
-                <Link href="https://api.whatsapp.com/send?phone=6288298813114" target="_blank">
+                <Link
+                  href="https://api.whatsapp.com/send?phone=6288298813114&text=Halo+Zainul+Ganteeeng&fbclid=PAAaZeoWwaBTH1cX3m6X7aqpUO0uXDKD5KBBGB1YuZahb34MO1_GDaNa-W8Uo"
+                  target="_blank">
                   <div className="rounded-full shadow-lg p-3 shadow-gray-300 hover:scale-105 transition ease-in-out duration-300 cursor-pointer">
                     <FaWhatsapp />
                   </div>

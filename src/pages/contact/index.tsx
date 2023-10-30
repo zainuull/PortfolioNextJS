@@ -46,7 +46,9 @@ const Contact = () => {
                       <FaInstagram />
                     </div>
                   </Link>
-                  <Link href="https://api.whatsapp.com/send?phone=6288298813114" target="_blank">
+                  <Link
+                    href="https://api.whatsapp.com/send?phone=6288298813114&text=Halo+Zainul+Ganteeeng&fbclid=PAAaZeoWwaBTH1cX3m6X7aqpUO0uXDKD5KBBGB1YuZahb34MO1_GDaNa-W8Uo"
+                    target="_blank">
                     <div className="rounded-full shadow-lg shadow-blue-200 hover:scale-110 p-6 cursor-pointer transition ease-in duration-300">
                       <FaWhatsapp />
                     </div>
