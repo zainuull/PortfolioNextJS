@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { LuExternalLink } from 'react-icons/lu';
 
 const ProjectItem = ({ datas }: any) => {
   return (
@@ -26,7 +25,6 @@ const ProjectItem = ({ datas }: any) => {
                 target="_blank"
                 className="flex items-center gap-x-2 border border-primary bg-primary px-4 py-2 rounded-full mt-2 hover:shadow-md transition-all duration-300">
                 View Project
-                <LuExternalLink size={20} />
               </Link>
             </Link>
           </div>
