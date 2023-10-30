@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import foto1 from '../../public/assets/contact.jpg';
+import foto1 from '../../../public/assets/contact.jpg';
 import Link from 'next/link';
 // Icons
 import { FaLinkedin, FaGithub, FaInstagram, FaWhatsapp } from 'react-icons/fa';
@@ -15,11 +15,18 @@ const Contact = () => {
           {/* Left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-blue-200 rounded-xl p-4">
             <div className="lg:p-4 h-full">
-              <Image className="rounded-xl hover:scale-105 transition ease-in duration-300" src={foto1} alt="/" />
+              <Image
+                className="rounded-xl hover:scale-105 transition ease-in duration-300"
+                src={foto1}
+                alt="/"
+              />
               <div className="py-2">
                 <h2 className="text-xl tracking-wides md:text-2xl lg:text-3xlt">Zainul</h2>
                 <p className="pb-2 md:text-xl">Front End Developer</p>
-                <p className="pb-4">I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
+                <p className="pb-4">
+                  I am available for freelance or full-time positions. Contact me and let&apos;s
+                  talk.
+                </p>
               </div>
               <div>
                 <p className="uppercase">Connect with me</p>
@@ -56,24 +63,39 @@ const Contact = () => {
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
-                    <input className=" border-2 border-gray-400 p-3 outline-none flex rounded-lg" type="text" />
+                    <input
+                      className=" border-2 border-gray-400 p-3 outline-none flex rounded-lg"
+                      type="text"
+                    />
                   </div>
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Phone Number</label>
-                    <input className=" border-2 border-gray-400 p-3 outline-none flex rounded-lg" type="tel" />
+                    <input
+                      className=" border-2 border-gray-400 p-3 outline-none flex rounded-lg"
+                      type="tel"
+                    />
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
-                  <input className=" border-2 border-gray-400 p-3 outline-none flex rounded-lg" type="email" />
+                  <input
+                    className=" border-2 border-gray-400 p-3 outline-none flex rounded-lg"
+                    type="email"
+                  />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
-                  <input className=" border-2 border-gray-400 p-3 outline-none flex rounded-lg" type="text" />
+                  <input
+                    className=" border-2 border-gray-400 p-3 outline-none flex rounded-lg"
+                    type="text"
+                  />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
-                  <textarea className=" border-2 border-gray-400 p-3 outline-none flex rounded-lg" rows={10} />
+                  <textarea
+                    className=" border-2 border-gray-400 p-3 outline-none flex rounded-lg"
+                    rows={10}
+                  />
                 </div>
                 <div className="w-full flex flex-col py-4 lg:max-w-xs">
                   <button className="">Send Message</button>

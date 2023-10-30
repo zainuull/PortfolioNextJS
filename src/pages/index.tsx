@@ -1,22 +1,25 @@
-import Head from "next/head";
-import Main from "@/component/Main";
-import About from "@/component/About";
-import Skills from "@/component/Skills";
-import Project from "@/component/Project";
-import Contact from "@/component/Contact";
+import Head from 'next/head';
+import Banner from './banner';
+import About from './about';
+import Skills from './skills';
+import Projects from './projects';
+import Contact from './contact';
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Zainul Portfolio</title>
-        <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
+        <meta
+          name="description"
+          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+        />
         <link rel="icon" href="/../public/assets/logo.png" />
       </Head>
-      <Main />
+      <Banner />
       <About />
       <Skills />
-      <Project />
+      <Projects />
       <Contact />
     </div>
   );
